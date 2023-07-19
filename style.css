@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(11, 11, 88);
+    padding: 20px;
+}
+
+.navbar nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    padding: 15px 20px;
+
+}
+.navbar nav ul li:first-child a:visited,
+nav ul li a.active {
+    background-color: coral;
+    border-radius: 8px;
+}
+
+.navbar a:hover {
+    background-color: coral;
+    border-radius: 8px;
+}
+
+
+.sign-in a:first-child {
+    color: rgb(243, 243, 217);
+    margin-right: 30px;
+    font-size: 20px;
+
+}
+.sign-in a:last-child {
+    color: coral;
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+
+
+.form {
+    background-color: rgb(255, 140, 98);
+    padding: 40px;
+}
+
+.form-fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+
+.contact h3 {
+    font-size: 25px;
+    color: rgb(11, 11, 88);
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.contact span {
+    border-bottom: 2px solid rgb(11, 11, 88);
+    width: 30%;
+    margin: 0px auto 15px auto;
+
+}
+
+.contact input {
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3),-2px -2px 4px rgba(255, 255, 255, 0.3);
+    font-size: 16px;
+    color: rgb(11, 11, 88);
+}
+
+.contact input[type="submit"] {
+    background-color: rgb(11, 11, 88);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 0;
+}
